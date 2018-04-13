@@ -22,21 +22,21 @@ body, html {
     background-size: cover;
 }
 
-                                                                                                                /*첫번째 이미지 수정 */
+                                                                              /*첫번째 이미지 수정 */
 .bgimg-1 {
-    background-image: url('https://scontent-icn1-1.xx.fbcdn.net/v/t31.0-8/16715936_1103609453082748_3225544855903893378_o.jpg?oh=d3ed0521452bf35072a883c189ade38c&oe=5AC73AC9');
+    background-image: url("https://scontent-icn1-1.xx.fbcdn.net/v/t31.0-8/16587303_1103609436416083_5464325804367674761_o.jpg?_nc_cat=0&oh=49c8927d1302bf0c8daa7f59dccab528&oe=5B2CFC0F");
     min-height: 100%;
 }
 
-                                                                                                               /* 두번째 이미지 수정 */
+                                                                                /* 두번째 이미지 수정 */
 .bgimg-2 {
-    background-image: url("https://scontent-icn1-1.xx.fbcdn.net/v/t31.0-8/16586999_1103609919749368_6126899279534447507_o.jpg?oh=561253e9eb0ee423e15efcbfacad742b&oe=5AC38E63");
+    background-image: url("https://scontent-icn1-1.xx.fbcdn.net/v/t31.0-8/16722840_1103609616416065_3592664706446465496_o.jpg?_nc_cat=0&oh=f4fffa4a3370d8e64c91c5a0621ee786&oe=5B29F3F5");
     min-height: 400px;
 }
 
-                                                                                                               /* 세번째 이미지 수정 */
+                                                                                /* 세번째 이미지 수정 */
 .bgimg-3 {
-    background-image: url("https://scontent-icn1-1.xx.fbcdn.net/v/t1.0-9/16602647_1103610419749318_4774542104028053823_n.jpg?oh=d2b96b1b9c4e918d3437ba1ef960002e&oe=5ACD528B");
+    background-image: url("https://scontent-icn1-1.xx.fbcdn.net/v/t31.0-8/16707620_1103609949749365_6443459654618190610_o.jpg?_nc_cat=0&oh=aeecdeb9bb3da4841080885e8dfba041&oe=5B60CEEB");
     min-height: 400px;
 }
 
@@ -54,7 +54,7 @@ body, html {
 <body>
 
 <!-- Navbar (sit on top) -->
-                                                                                                                        <!-- 메뉴 수정 -->
+                                                                                <!-- 메뉴 수정 -->
 <div class="w3-top">
   <div class="w3-bar" id="myNavbar">
     <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
@@ -62,7 +62,7 @@ body, html {
     </a>
     <a href="#home" class="w3-bar-item w3-button">HOME</a>
     <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
-    <a href="#download" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> DOWNLOAD</a>
+    <a href="#link" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> LINK</a>
     <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
       <i class="fa fa-search"></i>
@@ -72,17 +72,17 @@ body, html {
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
     <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
-    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">DOWNLOAD</a>
+    <a href="#link" class="w3-bar-item w3-button" onclick="toggleFunction()">LINK</a>
     <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
     <a href="#" class="w3-bar-item w3-button">SEARCH</a>
   </div>
 </div>
 
 <!-- First Parallax Image with Logo Text -->
-<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">             <!-- 대문 수정  -->
   <div class="w3-display-middle" style="white-space:nowrap;">
     <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">
-      미림, <span class="w3-hide-small">3학년,</span>데이터베이스 </span>
+      홈페이지 <span class="w3-hide-small">제작</span>체험 </span>
   </div>
 </div>
 
@@ -92,19 +92,19 @@ body, html {
   <p class="w3-center"><em>Nice to meet you</em></p>
   <div class="w3-row">
     <div class="w3-col m6 w3-center w3-padding-large">
-      <p><b><i class="fa fa-user w3-margin-right"></i>이형섭</b></p><br>
-      <img src="https://scontent-icn1-1.xx.fbcdn.net/v/t1.0-0/p206x206/17883553_1185662944877398_5059033331589399688_n.jpg?oh=8dca9b4e7a21203a4333dc6b92ba8f77&oe=5ABE71C5"
+      <p><b><i class="fa fa-user w3-margin-right"></i>이형섭</b></p><br>         <!-- 프로필 사진 변경 -->
+      <img src="https://scontent-icn1-1.xx.fbcdn.net/v/t1.0-9/16708348_1103610073082686_7248840105959510808_n.jpg?_nc_cat=0&oh=19aebb411ca79c85cd14aa27bf001abd&oe=5B6E1924"
       class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
     </div>
 
     <!-- Hide this text on small devices -->
                                                                                                                        <!-- 자기소개작성 파트 -->
     <div class="w3-col m6 w3-hide-small w3-padding-large">
-      <p>안녕하세요~ 미림여자정보과학고등학교에서 서버구축실무, 데이터베이스프로그래밍을 가르치는 이형섭입니다.</p>
-      <p></p>
-      <p>이곳은 그냥 수업시간에 필요한 PPT 및 소스를 다운받을 수 있는 곳입니다.</p>
-      <p></p>
-      <p>자세한 설명은 생략한다. </p>
+      <p>어서오세요 미림여자정보과학고등학교에.</p>
+      <p>중학생 진로체험용 홈페이지 제작을 위한 참고자료입니다. </p>
+      <p>이곳에 여러분들의 자기소개나 하고 싶은 말을 작성해 주시면 됩니다.</p>
+      <p>자신이 원하는 이미지, 내용을 가지고 홈페이지를 제작해 봅시다.</p>
+      <p>내 생의 첫 홈페이지를 만들고 스마트폰으로 접속!, 친구, 선생님, 부모님께 자랑하세요!!</p>
     </div>
   </div>
                                                                                                                       <!-- 내가 좋아하는 것 작성 -->
@@ -145,18 +145,22 @@ body, html {
 <!-- Second Parallax Image with Portfolio Text -->
 <div class="bgimg-2 w3-display-container w3-opacity-min">
   <div class="w3-display-middle">
-    <span class="w3-xxlarge w3-text-white w3-wide">DOWNLOAD</span>
+    <span class="w3-xxlarge w3-text-white w3-wide">Link</span>
   </div>
 </div>
 
-<!-- Container (Portfolio Section) -->
-                                                                                                                          <!--포트폴리오 섹션 -->
-<div class="w3-content w3-container w3-padding-64" id="download">
-  <h3 class="w3-center">WorkBook</h3>
-  <p class="w3-center"><em>강의 자료는 여기서 다운 받으시면 됩니다.<br> </em></p><br>
+<!-- Container (link Section) -->
+                                                                                <!--미림 홈페이지 링크섹션 -->
+<div class="w3-content w3-container w3-padding-64" id="link">
+  <h3 class="w3-center">LINK </h3>
+  <p class="w3-center"><em>미림관련 홈페이지, 소개 영상 링크<br> </em></p><br>
+
 
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
   <div class="w3-row-padding w3-center">
+    <a href="https://www.e-mirim.hs.kr/renewal/main.jsp"><button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">미림홈페이지</button></a>
+    <a href="https://www.youtube.com/watch?v=JmywKim-YQA"><button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">영상</button></a>
+    <a href="sample.txt"><button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">Sample</button></a>
     <div class="w3-col m3">
       <!-- <img src="/w3images/p1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains"> -->
     </div>
@@ -190,10 +194,9 @@ body, html {
     <div class="w3-col m3">
       <!-- <img src="/w3images/p8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing"> -->
     </div>
-    <a href="chapter 1.pptx"><button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">chapter 1</button></a>
-    <a href="chapter 2.pptx"><button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">chapter 2</button></a>
-    <a href="chapter 3.pptx"><button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">chapter 3</button></a>
-    <a href="chapter 4.pptx"><button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">chapter 4</button></a>
+
+
+
     <!--<a href="sql developer.pptx"><button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">sql developer</button></a>
     <a href="sql developer.pptx"><button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">sql developer</button></a>-->
   </div>
@@ -215,7 +218,7 @@ body, html {
   </div>
 </div>
 
-<!-- Container (Contact Section) -->                                                                                         <!-- 본인 인적사항 수정!!! -->
+<!-- Container (Contact Section) -->                                             <!-- 본인 인적사항 수정!!! -->
 <div class="w3-content w3-container w3-padding-64" id="contact">
   <h3 class="w3-center">WHERE I WORK</h3>
   <p class="w3-center"><em>I'd love your feedback!</em></p>
@@ -265,7 +268,7 @@ body, html {
   <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p> -->
 </footer>
 
-<!-- Add Google Maps -->                                                                                       <!-- 구글맵 수정 부분!!! -->
+<!-- Add Google Maps -->                                                        <!-- 구글맵 수정 부분!!! -->
 <script>
 function myMap()
 {
